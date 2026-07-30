@@ -1,19 +1,58 @@
 aid: matwings
-name: matwings
-description: matwings is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Matwings Technology
+description: >-
+  Matwings Technology (天鹜科技) is a global, AI-driven full-stack protein research
+  and development platform. Centered on its self-developed MatwingsVenus general
+  large model for protein design, the company integrates an in-house AI biological
+  design agent (MatwingsVenus Agent), a ten-billion-scale protein sequence dataset
+  (MatwingsVenus Pod), and an automated experimental platform (MatwingsVenus Auto)
+  to deliver an end-to-end paradigm that spans AI design through AI validation.
+  Capabilities include AI-directed evolution, AI enzyme mining, and de novo protein
+  design, applied across affinity fillers and consumables, holistic health, and
+  innovative drug discovery. Matwings is a Qiming Venture Partners portfolio company
+  headquartered in Shanghai, with peer-reviewed work at ICLR, NeurIPS, and PNAS. No
+  public developer API, documentation, or SDK is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/matwings/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.matwings.com/themes/basic/skin/images/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: AI protein design / biotechnology
+x-related-domains:
+- matvenus.com
+- aizyme.cn
+- genaiwings.com
+x-linkedin: https://www.linkedin.com/company/matwings/
+x-products:
+- MatwingsVenus Agent
+- MatwingsVenus PLM (protein large model)
+- MatwingsVenus Auto
+- MatwingsVenus Pod
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Protein Design
+- Biotechnology
+- Drug Discovery
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +61,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://matwings.com
+  url: https://www.matwings.com
+- type: Blog
+  url: https://www.matwings.com/site/company-news
+- type: Support
+  url: https://www.matwings.com/site/contact-us
+- type: PrivacyPolicy
+  url: https://www.matwings.com/site/privacy-policy
+- type: DomainSecurity
+  url: security/matwings-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
